@@ -21,3 +21,4 @@ Les utilisateurs peuvent également découvrir des lieux populaires grâce à un
 - Système de notes et avis sur les lieux visités
 - Mode hors ligne pour consulter l'itinéraire sans internet
 - Génération de PDF du plan final
+- Binômes : Le projet a été réalisé par Zineb Boulahbach et Aymane Bouarfa.
