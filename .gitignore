@@ -1,0 +1,26 @@
+# Environnement virtuel
+env/
+venv/
+ENV/
+.venv/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de données SQLite (si utilisée)
+*.sqlite3
+
+# Fichiers de configuration Django
+*.log
+
+# Dossier de migration sauf __init__.py
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.log
+**/migrations/__pycache__/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
