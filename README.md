@@ -4,11 +4,11 @@
 
 ## Fonctionnalités principales :
 
-1- Créer une interface utilisateur intuitive pour l'achat en ligne
-2- Implémenter un système de gestion de panier flexible (cookies et base de données)
-3- Développer un processus de commande sécurisé
-4- Assurer la compatibilité pour utilisateurs authentifiés et invités
-5- Gérer les produits physiques et numériques
+- Créer une interface utilisateur intuitive pour l'achat en ligne
+- Implémenter un système de gestion de panier flexible (cookies et base de données)
+- Développer un processus de commande sécurisé
+- Assurer la compatibilité pour utilisateurs authentifiés et invités
+- Gérer les produits physiques et numériques
 
 ## Installation:
 
