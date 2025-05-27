@@ -1,8 +1,6 @@
-# Application de Planification de Voyage "VoyagePro"
+# Plateforme E-commerce Django
 
-**VoyagePro** est une application web qui aide les utilisateurs à organiser leurs voyages de manière simple et efficace. L'application permet de créer des itinéraires personnalisés en ajoutant des destinations, des activités et des informations pratiques (transport, hébergement, budget).  
-
-Les utilisateurs peuvent également découvrir des lieux populaires grâce à une carte interactive et partager leurs plans de voyage avec leurs amis ou d'autres utilisateurs.
+**VoyagePro** Ce projet consiste en le développement d'une plateforme e-commerce complète utilisant le framework Django. L'application permet aux utilisateurs de parcourir des produits, gérer un panier d'achat, et effectuer des commandes en ligne, avec support pour les utilisateurs authentifiés et invités.
 
 ## Fonctionnalités principales :
 
