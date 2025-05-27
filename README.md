@@ -16,4 +16,5 @@
 - Install dependencies: pip install -r requirements.txt
 - Run server: python manage.py runserver
 
-- Binômes : Le projet a été réalisé par Zineb Boulahbach et Aymane Bouarfa.
+
+## Binômes : Le projet a été réalisé par Zineb Boulahbach et Aymane Bouarfa.
