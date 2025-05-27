@@ -1,6 +1,6 @@
 # Plateforme E-commerce Django
 
-**VoyagePro** Ce projet consiste en le développement d'une plateforme e-commerce complète utilisant le framework Django. L'application permet aux utilisateurs de parcourir des produits, gérer un panier d'achat, et effectuer des commandes en ligne, avec support pour les utilisateurs authentifiés et invités.
+**Ecommerce** Ce projet consiste en le développement d'une plateforme e-commerce complète utilisant le framework Django. L'application permet aux utilisateurs de parcourir des produits, gérer un panier d'achat, et effectuer des commandes en ligne, avec support pour les utilisateurs authentifiés et invités.
 
 ## Fonctionnalités principales :
 
