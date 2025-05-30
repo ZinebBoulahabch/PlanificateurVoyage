@@ -1,4 +1,3 @@
-
 # Cahier des Charges - BoutiquePRO
 
 ## 1. Contexte et Définition du Projet
@@ -36,48 +35,27 @@ Développer une plateforme e-commerce complète permettant aux commerçants de g
 
 ### 5.1. Besoins Fonctionnels
 
-#### Gestion des Produits
-- Création et modification de fiches produits
-- Gestion des catégories et sous-catégories
-- Gestion des prix et promotions
-- Gestion des stocks
-
-#### Gestion des Commandes
-- Suivi des commandes en temps réel
-- Gestion des retours
-- Système de notification
-- Génération de factures
-
-#### Interface Client
-- Inscription et authentification
-- Panier d'achat
-- Historique des commandes
-- Système de recherche avancée
-
-#### Administration
-- Tableau de bord analytique
-- Gestion des utilisateurs
-- Gestion des droits d'accès
-- Rapports et statistiques
+| Objectif                  | Description                                                                 | Contraintes / Règles de Gestion | Priorité    |
+|---------------------------|-----------------------------------------------------------------------------|-----------------------------------|-------------|
+| Gestion du Catalogue      | Création, modification et organisation des fiches produits (catégories, etc.) | À définir                         | Haute       |
+| Gestion des Offres        | Définir et gérer les prix et les promotions pour les produits               | À définir                         | Haute       |
+| Gestion des Stocks        | Suivre et mettre à jour les niveaux de stock                                | À définir                         | Haute       |
+| Gestion des Commandes     | Suivi en temps réel, retours, notifications                                 | À définir                         | Haute       |
+| Facturation               | Génération automatique de factures                                          | À définir                         | Moyenne     |
+| Compte Client             | Inscription, authentification, gestion du profil client                     | À définir                         | Haute       |
+| Parcours d'Achat Client   | Panier d'achat, historique des commandes, recherche de produits             | À définir                         | Haute       |
+| Tableau de Bord Admin     | Vue d'ensemble des métriques clés (ventes, stocks, etc.)                    | À définir                         | Haute       |
+| Gestion des Utilisateurs  | Création, modification et suppression des comptes utilisateurs (clients/admin) | À définir                         | Haute       |
+| Gestion des Droits        | Définir les permissions d'accès pour les différents rôles d'utilisateurs     | À définir                         | Haute       |
+| Rapports et Statistiques  | Génération de rapports sur les ventes, inventaires, etc.                     | À définir                         | Moyenne     |
 
 ### 5.2. Besoins Non Fonctionnels
 
-#### Performance
-- Temps de chargement < 3 secondes
-- Disponibilité 99.9%
-- Support de 1000 utilisateurs simultanés
-
-#### Sécurité
-- Chiffrement des données sensibles
-- Protection contre les attaques courantes
-- Authentification à deux facteurs
-- Sauvegardes régulières
-
-#### Interface
-- Design responsive
-- Compatibilité multi-navigateurs
-- Interface intuitive
-- Accessibilité WCAG 2.1
+| Objectif             | Description                                                                 | Contraintes / Règles de Gestion                      | Priorité    |
+|----------------------|-----------------------------------------------------------------------------|------------------------------------------------------|-------------|
+| Performance          | Temps de chargement, disponibilité, support utilisateurs simultanés           | Temps de chargement < 3s, Disponibilité 99.9%, 1000+ users | Haute       |
+| Sécurité             | Protection des données, transactions, accès                                 | Chiffrement, protection attaques, 2FA, sauvegardes   | Haute       |
+| Interface Utilisateur| Design responsive, compatibilité navigateurs, intuitivité, accessibilité     | Responsive, multi-navigateurs, intuitif, WCAG 2.1    | Haute       |
 
 ## 6. Technologies et Outils
 
