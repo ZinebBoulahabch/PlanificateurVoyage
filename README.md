@@ -35,19 +35,19 @@ Développer une plateforme e-commerce complète permettant aux commerçants de g
 
 ### 5.1. Besoins Fonctionnels
 
-| Objectif                  | Description                                                                 | Contraintes / Règles de Gestion | Priorité    |
-|---------------------------|-----------------------------------------------------------------------------|-----------------------------------|-------------|
-| Gestion du Catalogue      | Création, modification et organisation des fiches produits (catégories, etc.) | À définir                         | Haute       |
-| Gestion des Offres        | Définir et gérer les prix et les promotions pour les produits               | À définir                         | Haute       |
-| Gestion des Stocks        | Suivre et mettre à jour les niveaux de stock                                | À définir                         | Haute       |
-| Gestion des Commandes     | Suivi en temps réel, retours, notifications                                 | À définir                         | Haute       |
-| Facturation               | Génération automatique de factures                                          | À définir                         | Moyenne     |
-| Compte Client             | Inscription, authentification, gestion du profil client                     | À définir                         | Haute       |
-| Parcours d'Achat Client   | Panier d'achat, historique des commandes, recherche de produits             | À définir                         | Haute       |
-| Tableau de Bord Admin     | Vue d'ensemble des métriques clés (ventes, stocks, etc.)                    | À définir                         | Haute       |
-| Gestion des Utilisateurs  | Création, modification et suppression des comptes utilisateurs (clients/admin) | À définir                         | Haute       |
-| Gestion des Droits        | Définir les permissions d'accès pour les différents rôles d'utilisateurs     | À définir                         | Haute       |
-| Rapports et Statistiques  | Génération de rapports sur les ventes, inventaires, etc.                     | À définir                         | Moyenne     |
+| Objectif                  | Description                                                                 | Contraintes / Règles de Gestion                                  | Priorité    |
+|---------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------|-------------|
+| Gestion du Catalogue      | Création, modification et organisation des fiches produits (catégories, etc.) | Limite de taille pour les images produit (ex: 2MB), champs obligatoires (nom, prix) | Haute       |
+| Gestion des Offres        | Définir et gérer les prix et les promotions pour les produits               | Application des promotions sur des périodes définies, conditions d'éligibilité | Haute       |
+| Gestion des Stocks        | Suivre et mettre à jour les niveaux de stock                                | Alerte automatique lorsque le stock est inférieur à un seuil défini, décrémentation automatique après commande | Haute       |
+| Gestion des Commandes     | Suivi en temps réel, retours, notifications                                 | Validation du paiement avant traitement, génération d'un numéro de suivi | Haute       |
+| Facturation               | Génération automatique de factures                                          | Format PDF standard, inclure toutes les informations légales requises | Moyenne     |
+| Compte Client             | Inscription, authentification, gestion du profil client                     | Validation de l'email, mot de passe sécurisé (min 8 caractères, chiffres, lettres) | Haute       |
+| Parcours d'Achat Client   | Panier d'achat, historique des commandes, recherche de produits             | Affichage du total TTC, sauvegarde du panier pour utilisateurs connectés | Haute       |
+| Tableau de Bord Admin     | Vue d'ensemble des métriques clés (ventes, stocks, etc.)                    | Accès restreint aux administrateurs                               | Haute       |
+| Gestion des Utilisateurs  | Création, modification et suppression des comptes utilisateurs (clients/admin) | Rôles et permissions définis (ex: Admin, Gérant, Client)         | Haute       |
+| Gestion des Droits        | Définir les permissions d'accès pour les différents rôles d'utilisateurs     | Basé sur les rôles utilisateurs                                  | Haute       |
+| Rapports et Statistiques  | Génération de rapports sur les ventes, inventaires, etc.                     | Filtres par date, catégorie, statut (commandes)                 | Moyenne     |
 
 ### 5.2. Besoins Non Fonctionnels
 
@@ -123,7 +123,7 @@ cd frontend
 # Réinstaller les dépendances
 npm install
 ```
-# 5. Démarrer l'application avec la variable d'environnement pour OpenSSL
+## 7. Démarrer l'application avec la variable d'environnement pour OpenSSL
 ```bash
 $env:NODE_OPTIONS="--openssl-legacy-provider"
 npm start
